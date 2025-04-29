@@ -6,3 +6,4 @@ text = theBytes.decode()
 import bs4
 doc = bs4.BeautifulSoup(text)
 print(doc.prettify())
+naviga2(doc, '')
